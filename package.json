@@ -4,16 +4,25 @@
   "description": "Desenvolvimento da Intro do Star Wars com deploy no Azure.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/glaucia86/intro-starwars-app.git"
+    "url": "https://github.com/glaucia86/intro-starwars-app.git"
   },
+  "keywords": [
+    "nodejs",
+    "azure",
+    "javascript",
+    "express"
+  ],
   "author": "Glaucia Lemos",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/glaucia86/intro-starwars-app/issues"
   },
-  "homepage": "https://github.com/glaucia86/intro-starwars-app#readme"
+  "homepage": "https://github.com/glaucia86/intro-starwars-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
