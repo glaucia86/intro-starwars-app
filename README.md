@@ -36,3 +36,11 @@ Caso você seja um(a) estudante de alguma Instituição de Ensino de Faculdade o
 * ✅ **[Azure para desenvolvedores de JavaScript e Node.js](https://docs.microsoft.com/javascript/azure/?view=azure-node-latest&WT.mc_id=introstarwars-github-gllemos)**
 * ✅ **[Implantando Aplicações Node.js no Azure](https://code.visualstudio.com/docs/azure/deployment?WT.mc_id=introstarwars-github-gllemos)**
 * ✅ **[Cursos Online Grátis - Microsoft Learn](https://docs.microsoft.com/learn/?WT.mc_id=introstarwars-github-gllemos)**
+
+## Aplicação Disponível On-line!
+
+Caso desejam ver a aplicação executando na web, bastam acessar o link **[AQUI](https://introstarwarsapp.z19.web.core.windows.net/)**
+
+## Tenho Dúvidas... O que Faço?! 🚩
+
+Caso tenha dúvidas ao código desenvolvido, sinta-se a vontade em abrir uma **[ISSUE AQUI](https://github.com/glaucia86/intro-starwars-app/issues)** no repositório com a sua dúvida. Assim que possível, estarei respondendo as todas as dúvidas que tiverem!
