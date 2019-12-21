@@ -1,4 +1,4 @@
-# Demo - Intro Star Wars com Node.js & Express.js
+# Demo - Intro Star Wars com HTML, CSS, JavaScript & Node.js!
 
 ![introstarwars](image/star-wars.gif)
 
