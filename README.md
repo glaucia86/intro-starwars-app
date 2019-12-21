@@ -1,8 +1,6 @@
 # Demo - Intro Star Wars com Node.js
 
-<p align="center">
-  <img src="https://s5.gifyu.com/images/star-wars-3.gif"/>  
-</p>
+[![stars.gif](https://s5.gifyu.com/images/stars.gif)](https://gifyu.com/image/mLtY)
 
 Repositório responsável pela artigo escrito no dev.to **[AQUI]()** em como desenvolver a intro do Star Wars com Node.js & Express.js.
 
