@@ -17,6 +17,9 @@ module.exports = {
   rules: {
     "no-console": "off",
     "no-multi-assign": "off",
-    "prefer-template": "off"
+    "prefer-template": "off",
+    "no-plusplus": "off",
+    "no-unused-vars": "off",
+    "no-use-before-define": "off"
   },
 };

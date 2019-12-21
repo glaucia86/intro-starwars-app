@@ -11,6 +11,7 @@ body {
     top: 40%;
     left: 20%;
     z-index: 1;    
+    opacity: 0;
 }
 
 .intro_texto {
@@ -41,4 +42,59 @@ body {
     z-index: 1;
     transform-origin: 50%;
     transform: perspective(300px) rotateX(20deg);
+}
+
+.botao {
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.intro_animacao {
+   animation: intro 2s ease-out 0s;
+}
+
+.historia_animacao {
+    animation: paragrafos 80s linear 2s;
+}
+
+@keyframes intro {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes paragrafos {
+  0% {
+    top: 75%;
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    top: -200%;
+    opacity: 0;
+  }
+}
+
+/*Fundo com as estrelas*/
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
