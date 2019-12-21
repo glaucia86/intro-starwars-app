@@ -15,6 +15,8 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    "no-console": "off"
+    "no-console": "off",
+    "no-multi-assign": "off",
+    "prefer-template": "off"
   },
 };
