@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+
+body {
+    margin: 0;
+    background: #000;
+    overflow: hidden;
+}
+
+.intro {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    z-index: 1;    
+    opacity: 0;
+}
+
+.intro_texto {
+    font-family: "News Cycle", sans-serif;
+    color: #00BFFF;
+    font-weight: 400;
+    letter-spacing: .1em;
+}
