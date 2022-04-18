@@ -1,37 +1,36 @@
 /**
- * Arquivo: intro.js
- * Data: 20/12/2019
- * Descrição: Lógica da Intro do filme Star Wars.
- * Author: Glaucia Lemos
+ * File: 04/05/2022
+ * Descrição: Star Wars Intro Logic
+ * Author: Glaucia Lemos <Twitter: @glaucia_lemos86>
  */
 
 let width = window.innerWidth;
 let height = window.innerHeight;
 
 const intro = document.getElementsByClassName('intro')[0];
-const historia = document.getElementsByClassName('historia')[0];
-const paragrafos = document.getElementsByClassName('paragrafos')[0];
-const som = document.getElementById('som');
+const story = document.getElementsByClassName('story')[0];
+const paragraphs = document.getElementsByClassName('paragraphs')[0];
+const sound = document.getElementById('sound');
 
 intro.style.fontSize = width / 30 + 'px';
-historia.style.fontSize = width / 20 + 'px';
-paragrafos.style.height = height + 'px';
+story.style.fontSize = width / 20 + 'px';
+paragraphs.style.height = height + 'px';
 
 window.addEventListener('resize', () => {
   width = canvas.width = window.innerWidth;
   height = canvas.height = window.innerHeight;
   intro.style.fontSize = width / 30 + 'px';
-  historia.style.fontSize = width / 20 + 'px';
-  paragrafos.style.height = height + 'px';
+  story.style.fontSize = width / 20 + 'px';
+  paragraphs.style.height = height + 'px';
 });
 
-function iniciar() {
-  intro.className = 'intro intro_texto intro_animacao';
-  historia.className = 'historia historia_texto historia_animacao';
-  som.play();
+function start() {
+  intro.className = 'intro text_intro animation_intro';
+  story.className = 'story text_story animation_story';
+  sound.play();
 }
 
-/* Fundo de estrelas */
+/* Background with Stars */
 
 let canvas = document.getElementById('snow');
 const ctx = canvas.getContext('2d');
@@ -43,7 +42,7 @@ const num = 100;
 const size = 2;
 const elements = [];
 
-function inicio() {
+function starts() {
   for (let i = 0; i < num; i++) {
     elements[i] = {
       x: Math.ceil(Math.random() * width),
@@ -53,7 +52,7 @@ function inicio() {
   }
 }
 
-function nevar() {
+function snow() {
   ctx.clearRect(0, 0, width, height);
   for (let i = 0; i < num; i++) {
     const e = elements[i];
@@ -64,5 +63,5 @@ function nevar() {
   }
 }
 
-inicio();
-nevar();
+starts();
+snow();

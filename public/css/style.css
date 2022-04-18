@@ -14,19 +14,19 @@ body {
     opacity: 0;
 }
 
-.intro_texto {
+.text_intro {
     font-family: "News Cycle", sans-serif;
     color: #00BFFF;
     font-weight: 400;
     letter-spacing: .1em;
 }
 
-.historia {
+.story {
     position: absolute;
     top: 80%;
 }
 
-.historia_texto {
+.text_story {
     font-family: "News Cycle", sans-serif;
     font-weight: 700;
     color: #FFD700;
@@ -35,7 +35,7 @@ body {
     line-height: 1.1em;
 }
 
-.paragrafos {
+.paragraphs {
     position: absolute;
     left: 15%;
     width: 70%;
@@ -44,7 +44,7 @@ body {
     transform: perspective(300px) rotateX(20deg);
 }
 
-.botao {
+.button {
     color: white;
     display: inline-block;
     margin: 10px;
@@ -54,12 +54,12 @@ body {
     cursor: pointer;
 }
 
-.intro_animacao {
-   animation: intro 2s ease-out 0s;
+.animation_intro {
+  animation: intro 2s ease-out 0s;
 }
 
-.historia_animacao {
-    animation: paragrafos 80s linear 2s;
+.animation_story {
+    animation: paragraphs 80s linear 2s;
 }
 
 @keyframes intro {
@@ -77,7 +77,7 @@ body {
   }
 }
 
-@keyframes paragrafos {
+@keyframes paragraphs {
   0% {
     top: 75%;
     opacity: 1;
@@ -91,7 +91,7 @@ body {
   }
 }
 
-/*Fundo com as estrelas*/
+/* Background with Stars */
 canvas {
   position: absolute;
   top: 0;
