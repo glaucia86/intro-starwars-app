@@ -41,7 +41,7 @@ nodemon
 
 ## Aplicação Disponível On-line com Azure Static Web Apps!
 
-Caso desejam ver a aplicação executando na web, bastam acessar o link **[AQUI]()**
+Caso desejam ver a aplicação executando na web, bastam acessar o link **[AQUI](https://calm-cliff-0923da21e.1.azurestaticapps.net/)**
 
 ## Tenho Dúvidas... O que Faço?! 🚩
 
